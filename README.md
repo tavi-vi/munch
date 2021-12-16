@@ -17,3 +17,6 @@ I wrote this out of a fascination with the [Blit terminal's diagnostic program](
 
 # Building
 You only need GCC, GNU Make, and SDL2 to build. `make` will build and put the executable at `release/munch`. If you have Nix with flake support, you can just run `nix build`.
+
+# Bugs
+Right now, resizing the window vertically makes the pattern break. The default height of 1024 is recommended until I have the will to implement a fix.
