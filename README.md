@@ -7,7 +7,7 @@ I wrote this out of a fascination with the [Blit terminal's diagnostic program](
 
 `up`/`down` change the speed in small increments
 
-`page up`/`page down` change the speed in small increments
+`page up`/`page down` change the speed in large increments
 
 `home` returns the speed to the default
 
