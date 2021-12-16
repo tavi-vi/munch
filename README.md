@@ -14,3 +14,6 @@ I wrote this out of a fascination with the [Blit terminal's diagnostic program](
 `r`/`f` change the direction of the algorithm to reverse or forward, respectively
 
 `d` prints some debug information to `stdout`
+
+# Building
+You only need GCC, GNU Make, and SDL2 to build. `make` will build and put the executable at `release/munch`. If you have Nix with flake support, you can just run `nix build`.
