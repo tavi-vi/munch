@@ -32,6 +32,10 @@ RELCFLAGS = -march=native -flto -ffast-math -funroll-all-loops -Ofast -I. -DNTES
 # Default build
 all: release
 
+install: release
+	mkdir -p ${out}/bin
+	cp ${RELEXE} ${out}/bin/
+
 # Debug rules
 debug: $(DBGEXE)
 
